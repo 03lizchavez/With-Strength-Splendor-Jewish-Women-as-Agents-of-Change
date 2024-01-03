@@ -1,0 +1,57 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+body {
+    font-family: 'DM Serif Display', serif;
+   
+}
+nav {
+    float: left
+    ;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+}
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+nav a:hover {
+    color: white;
+}
+h1 {
+    font-size: 35px;
+    font-family: 'DM Serif Display', serif;
+    margin-top: 80px; 
+}
+p {
+    float:left;
+}
+main {
+    color: white;
+}
+header {
+    background-color: #f582e2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    margin-top: 0px; 
+}
+header::after {
+    content: ' ';
+    clear: both
+}
