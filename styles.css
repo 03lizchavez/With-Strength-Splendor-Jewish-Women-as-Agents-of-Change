@@ -55,6 +55,6 @@ header::after {
     content: ' ';
     clear: both
 }
-a {
+p {
      font-family: 'DM Serif Display', serif;
 }
