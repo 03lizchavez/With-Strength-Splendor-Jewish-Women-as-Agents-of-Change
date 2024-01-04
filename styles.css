@@ -55,3 +55,6 @@ header::after {
     content: ' ';
     clear: both
 }
+a {
+     font-family: 'DM Serif Display', serif;
+}
